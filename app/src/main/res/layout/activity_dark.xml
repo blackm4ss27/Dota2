@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Dark">
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="409dp"
+        android:layout_height="729dp"
+        android:background="#605E5E"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/letradarkw" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="match_parent"
+                android:layout_height="181dp"
+                app:srcCompat="@drawable/darkwillow" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:background="#4A837E"
+                android:textColor="#000000"
+                android:text="Un ligero aleteo desde las sombras puede ser lo único que un enemigo verá de Dark Willow, ya que elude la persecución y controla los movimientos de su enemigo con astutos trucos de hadas. Invocando poderes mucho más antiguos que cualquier magia erudita, ata a los enemigos en su lugar antes de desatar la ira y el terror del reino de las hadas sobre ellos."
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#B0A2C8"
+                android:text="Habilidades"
+                android:textColor="#081C88"
+                android:textSize="45dp" />
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="match_parent"
+                android:layout_height="101dp"
+                app:srcCompat="@drawable/willowhabi" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#01453F"
+                android:text="Historia"
+                android:textColor="#31D638"
+                android:textSize="45dp" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#269389"
+                android:text="Los niños adoran contar historias sobre las fantásticas aventuras de las hadas. Pero eso es porque ignoran que en su mayoría son estúpidas y maliciosas. Y en el mundo de las rencorosas hadas, pocos nombres se pronuncian con tanto desprecio como el de Mireska Brisasol. Hija de un rey mercader de las hadas, Mireska creció en Revtel, un despiadado país donde la manipulación y el asesinato eran la norma. Pero a pesar de su habilidad para manejarse según el protocolo, las leyes no escritas y los rituales sociales que impregnaban cada elemento de su vida, a ella todo le parecía bastante aburrido. Así que Mireska hizo lo que hacen la mayoría de niños rebeldes: quemó la casa de su padre y se escapó con su espíritu mascota Jex a vivir la vida de una estafadora errante."
+                android:textColor="#000000"
+                android:textSize="20dp" />
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

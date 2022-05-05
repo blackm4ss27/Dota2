@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Death">
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="409dp"
+        android:layout_height="729dp"
+        android:background="#605E5E"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/letradeath" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="match_parent"
+                android:layout_height="181dp"
+                app:srcCompat="@drawable/deathprophet" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:background="#4A837E"
+                android:textColor="#000000"
+                android:text="Cuando da rienda suelta a su ejército de fantasmas, Death Prophet sobresale demoliendo a enemigos y a sus defensas por igual. Liderando las fuerzas de su equipo hacia la base enemiga con una oleada tras otra de su enjambre, su embestida puede parecer imparable."
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#B0A2C8"
+                android:text="Habilidades"
+                android:textColor="#081C88"
+                android:textSize="45dp" />
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="match_parent"
+                android:layout_height="101dp"
+                app:srcCompat="@drawable/deathhabi" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#01453F"
+                android:text="Historia"
+                android:textColor="#31D638"
+                android:textSize="45dp" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#269389"
+                android:text="Krobelus era una Profetisa de la Muerte (Death Prophet), lo que significa que ella decía la buenaventura a los ricos que deseaban ver más allá del velo. Pero tras años de investigar en nombre de otros, empezó a buscar pistas sobre su propio destino. Cuando la muerte se negó a revelar sus secretos, ella trató de comprarlos con su propia vida. Sin embargo, el precio más alto, resultó ser insuficiente. La muerte la rechazaba una y otra vez, siempre ocultando el más profundo de sus misterios, y en su alma creció la mayor de las envidias. Otros podían morir por toda la eternidad, ¿pero por qué no ella? ¿Por qué era arrojada de nuevo a las orillas de la vida con una regularidad tan agobiante? ¿Por qué no era digna de la única cosa que los demás seres vivos dan por supuesto? A pesar de todo, no se desanimó. Cada vez que regresaba de la tumba traía un poco más de muerte con ella. Los espectros la seguían como fragmentos de su alma destrozada; su sangre se diluyó y se volvió ectoplásmica; las vivaces criaturas del atardecer la tomaron por una de su especie. Cada vez que fallecía, dejaba ir un poco más de su vida y empezaba a parecer que su fin estaba cerca. Con su dedicación a la muerte redoblada y ningún otro cliente que no fuese ella misma, se lanzaba cada vez con más fervor al abismo con la intención de cumplir la profecía que la eludía: que algún día Death Prophet ya no regresaría más de entre los muertos."
+                android:textColor="#000000"
+                android:textSize="20dp" />
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

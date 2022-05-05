@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Ogre">
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="409dp"
+        android:layout_height="729dp"
+        android:background="#605E5E"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/letraogre" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="match_parent"
+                android:layout_height="181dp"
+                app:srcCompat="@drawable/ogremagi" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:background="#4A837E"
+                android:textColor="#000000"
+                android:text="Con una probabilidad de multiplicar el impacto de cada hechizo que lanza, un poco de suerte es todo lo que Ogre Magi necesita para convertir a sus enemigos en cenizas, o incrementar el poder de sus aliados. Por supuesto, es difícil confiar en la suerte..."
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#B0A2C8"
+                android:text="Habilidades"
+                android:textColor="#081C88"
+                android:textSize="45dp" />
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="match_parent"
+                android:layout_height="101dp"
+                app:srcCompat="@drawable/ogrehabi" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#01453F"
+                android:text="Historia"
+                android:textColor="#31D638"
+                android:textSize="45dp" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#269389"
+                android:text="El ogro común es la criatura a partir de la cual se creó la expresión «Más tonto que las piedras». En su estado natural, un ogro es sumamente incapaz de hacer o decidir nada. Sin más vestimenta que la suciedad en sus cuerpos, a veces se encuentra envuelto en pieles de animales tras devorar sus despojos. Al ser una criatura poco sociable, se le suele encontrar confraternizando cariñosamente con rocas o tocones que haya confundido por los de su especie (lo que puede explicar la baja tasa de reproducción del ogro). Sin embargo, más o menos una vez por generación, la raza de los ogros es bendecida con el nacimiento de un Mago Ogro (Ogre Magi) bicéfalo, al que inmediatamente se le otorga el nombre tradicional de Aggron Quiebrapiedras, el nombre del primer y tal vez único ogro inteligente en la historia de su estirpe. Con dos cabezas, Ogre Magi es capaz de operar a un nivel al que otras criaturas llegan con solo una. Y a pesar de que Ogre Magi no pueda ganar discusiones (ni consigo mismo), tiene un don divino conocido como la suerte del necio, una tendencia a tener inauditas rachas de suerte que le han permitido a la raza de los ogros prosperar a pesar de los enemigos, las severas condiciones meteorológicas y la incapacidad para alimentarse a sí misma. Es como si la Diosa de la Suerte, sintiendo lástima por esta especie tristemente inepta, estuviera velando por Ogre Magi. ¿Y quién podría culparla? Pobrecitos."
+                android:textColor="#000000"
+                android:textSize="20dp" />
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

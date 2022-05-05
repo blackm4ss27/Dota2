@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Slark">
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="409dp"
+        android:layout_height="729dp"
+        android:background="#605E5E"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/letraslark" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="match_parent"
+                android:layout_height="181dp"
+                app:srcCompat="@drawable/slark" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:background="#4A837E"
+                android:textColor="#000000"
+                android:text="Saltar hacia el peligro y luego retroceder es lo que mejor se le da a Slark. Aprovecha la menor oportunidad para arrinconar a un enemigo solitario, roba su esencia con cada corte de su daga y siempre está preparado para desvanecerse si las cosas se ponen feas."
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#B0A2C8"
+                android:text="Habilidades"
+                android:textColor="#081C88"
+                android:textSize="45dp" />
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="match_parent"
+                android:layout_height="101dp"
+                app:srcCompat="@drawable/slarkhabi" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#01453F"
+                android:text="Historia"
+                android:textColor="#31D638"
+                android:textSize="45dp" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#269389"
+                android:text="Prácticamente desconocido por los habitantes del mundo seco, el Arrecife Oscuro es una prisión submarina donde envían a las peores criaturas marinas que hayan cometido crímenes contra los suyos. Es un nido enzarzado lleno de Slithereen asesinos, Profundos traicioneros y merantes sociópatas. En este lúgubre laberinto, patrullado por anguilas y protegido por enormes anémonas, solo los salvajes sobreviven. Encerrado en el Arrecife Oscuro por crímenes desconocidos, Slark pasó media vida sin familia ni amabilidad, sin fiarse de nadie, sobreviviendo mediante una combinación de sigilo y crueldad, guardándose sus pensamientos y sus planes para él. Cuando los Doce Infames del Arrecife Oscuro planearon su desastrosa fuga, mantuvieron sus planes en perfecto secreto, asesinando a cualquiera que empezara a atar cabos; pero de algún modo, Slark descubrió su plan y se procuró un lugar en él. Diez de los doce murieron en el intento de fuga y otros dos fueron capturados y devueltos al Arrecife Oscuro, posteriormente ejecutados para el entretenimiento de los otros presos. Pero Slark, el desconocido decimotercero, aprovechó la conmoción para escabullirse y no ser visto nunca más. Actualmente un residente furtivo de los manglares carnívoros de las regiones al sur de la Costa Sombría, Slark sigue siendo el único fugitivo con éxito del Arrecife Oscuro."
+                android:textColor="#000000"
+                android:textSize="20dp" />
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

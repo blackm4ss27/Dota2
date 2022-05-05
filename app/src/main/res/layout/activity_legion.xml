@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Legion">
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="409dp"
+        android:layout_height="729dp"
+        android:background="#605E5E"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/letralegion" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="match_parent"
+                android:layout_height="181dp"
+                app:srcCompat="@drawable/legioncommander" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:background="#4A837E"
+                android:textColor="#000000"
+                android:text="Marchando a través del campo de batalla, Legion Commander desafía a enemigos solitarios en combate singular. Cada duelo que gana aumenta la potencia de sus ataques, hasta que al final puede convertirse en un ejército implacable de una sola mujer."
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#B0A2C8"
+                android:text="Habilidades"
+                android:textColor="#081C88"
+                android:textSize="45dp" />
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="match_parent"
+                android:layout_height="101dp"
+                app:srcCompat="@drawable/legionhabi" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#01453F"
+                android:text="Historia"
+                android:textColor="#31D638"
+                android:textSize="45dp" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#269389"
+                android:text="Llegaron sin previo aviso. Tras las murallas de la ciudad de Stonehall se produjo un estruendo y un sonido terrible, y de la ignota negrura apareció un ejército de bestias en número imposible de cuantificar. Esgrimían llamas y vil hechicería. Asesinaban y raptaban a madres e hijos para sus oscuros propósitos. De la otrora poderosa fuerza militar de Stonehall, solo la Legión de Bronce, liderada por la indomable comandante Tresdin, se encontraba lo suficientemente cerca como para responder a la llamada de la batalla. Cabalgaron hacia el interior de su ciudad, combatiendo a través de callejones ensangrentados y mercados en llamas, abriéndose paso a través de la monstruosa multitud hacia la fuente de la repentina invasión: una grieta etérea en la plaza de la villa, y en el precipicio, bramando, su temido campeón. Envuelto en un resplandor corrosivo, el líder de la horda abismal blandió su enorme hoja, partiendo en dos a un legionario mientras la carne de este comenzaba a corromperse. Tresdin alzó su sangrienta espada y fijó la mirada en la bestia. Esta se giró, dirigiéndole una sonrisa a través de un laberinto de dientes. Sin hacer caso a la batalla que se libraba a su alrededor, cargaron la una contra el otro. Desviando un golpe tras otro, la pareja danzaba en duelo mortal mientras la Legión de Bronce iba sucumbiendo en torno a ellos. Tresdin saltó hacia delante mientras su rival balanceaba su espada para llevarla a su encuentro. Se volvieron las tornas. El ataque impactó bruscamente contra Tresdin, dándole un brutal golpe en el costado, pero aun perdiendo el equilibrio, fue capaz de reunir fuerzas para realizar otro ataque. La hoja raspó contra la hoja más allá de la empuñadura, llegando hasta la retorcida garra que había debajo y cortándola en dos en una terrible explosión de chispas y sangre. El infame público miró con asombro mientras ella lanzaba su ataque, conduciendo su hoja a través de la carne de su rival hasta el desbocado corazón que latía debajo. Con un grito que partió las nubes del cielo, la bestia estalló en un torrente de sangre y dolor. El portal estigio flaqueó, el poder que sostenía el abismo empezó a desvanecerse tan bruscamente como había aparecido. Los invasores que aún quedaban cayeron rápidamente bajo el acero de Stonehall. A pesar de la victoria, los supervivientes veían poco que celebrar: la ciudad estaba en ruinas, escasos eran los que habían salido con vida. Los incendios continuaban extendiéndose. Desplegando sus estandartes de guerra, Tresdin reunió a cuantos aliados pudo. Ardía en furia mientras prometía brutal venganza contra las fuerzas del abismo y maldecía a quien osara ponerse en su camino."
+                android:textColor="#000000"
+                android:textSize="20dp" />
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

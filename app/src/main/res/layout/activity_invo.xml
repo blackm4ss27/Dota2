@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Invo">
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="409dp"
+        android:layout_height="729dp"
+        android:background="#605E5E"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/letrainvoker" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="match_parent"
+                android:layout_height="181dp"
+                app:srcCompat="@drawable/invoker" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:background="#4A837E"
+                android:textColor="#000000"
+                android:text="Con un intrincado arsenal de hechizos a su disposición, Invoker puede adaptarse a cualquier situación en la batalla. Cada configuración de sus tres componentes de hechizos activa uno de sus diez hechizos, de modo que nunca se queda sin opciones para destruir o escapar de sus enemigos."
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#B0A2C8"
+                android:text="Habilidades"
+                android:textColor="#081C88"
+                android:textSize="45dp" />
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="match_parent"
+                android:layout_height="101dp"
+                app:srcCompat="@drawable/invokerhabi" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#01453F"
+                android:text="Historia"
+                android:textColor="#31D638"
+                android:textSize="45dp" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#269389"
+                android:text="En su antigua y algunos dirían más poderosa forma, la magia era principalmente el arte de la memoria. No requería tecnología ni varitas mágicas u otros accesorios, solo la mente del mago. Toda la parafernalia de los rituales se reducía a códigos mnemotécnicos con el objeto de permitir al experto recordar en gran detalle la fórmula mental específica que da acceso al poder de un hechizo. Los más grandiosos magos de aquellos días eran los que habían sido otorgados con el don de una memoria superior, pero tan complejas eran las invocaciones que todos los magos estaban obligados a especializarse. En el transcurso de una vida los más entregados podían aspirar a memorizar tres encantamientos, cuatro como mucho. Los hechiceros ordinarios se contentaban con dos, y no era raro que el mago de una aldea supiera solo uno, incluso requiriendo para ello consultar grimorios como ayuda contra el olvido en las raras ocasiones en las que tuviera que usarlo. Pero entre aquellos primeros taumaturgos había una excepción, un genio de extraordinaria inteligencia y prodigiosa memoria que pasó a ser conocido como Invoker. En su juventud, el precoz mago dominó, no cuatro, ni cinco, ni siquiera siete encantamientos: Era capaz de canalizar no menos de diez hechizos y lanzarlos al instante. Aprendió muchos más pero no les encontró uso, los practicó una vez y los purgó de su memoria para siempre dejando lugar a invocaciones más prácticas. Uno de ellos fue el Conjuro Sempiterno. Un hechizo de longevidad de tal poder que aquellos que lo lanzaron en los primeros días del mundo están entre nosotros todavía (a no ser que hayan sido reducidos a átomos). La mayoría de estos cuasi-inmortales viven sosegadamente temiendo admitir su secreto, pero Invoker no es de mantener sus dones ocultos. Ahora es anciano, ha aprendido más que ningún otro y su mente todavía tiene espacio para contener una magnífica opinión de su propia valía... además de las invocaciones con las que se entretiene durante el largo y lento crepúsculo de los días de decadencia del mundo."
+                android:textColor="#000000"
+                android:textSize="20dp" />
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

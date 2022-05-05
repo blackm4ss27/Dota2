@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Nature">
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="409dp"
+        android:layout_height="729dp"
+        android:background="#605E5E"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/letranatures" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="match_parent"
+                android:layout_height="181dp"
+                app:srcCompat="@drawable/naturesprophet" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:background="#4A837E"
+                android:textColor="#000000"
+                android:text="Ya sea en el fragor de la batalla o haciendo acopio de recursos para su siguiente asalto, Nature's Prophet parece estar en todas partes. Teletransportándose a voluntad a cualquier lugar y creando instantáneamente un ejército de árboles violentos para luchar por él, ataca donde los enemigos menos se lo esperan."
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#B0A2C8"
+                android:text="Habilidades"
+                android:textColor="#081C88"
+                android:textSize="45dp" />
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="match_parent"
+                android:layout_height="101dp"
+                app:srcCompat="@drawable/natureshabi" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#01453F"
+                android:text="Historia"
+                android:textColor="#31D638"
+                android:textSize="45dp" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#269389"
+                android:text="Cuando Verodicia, Diosa de los bosques, había terminado de poblar los verdes parajes, habiendo plantado el rizado espíritu en la semilla, habiendo tentado a las sutiles aguas de muy dentro de la roca, habiendo jurado al Sol su completa atención al crecer de las cosas, ella se dio cuenta de que su propio tiempo había llegado a su fin y como una de las hojas cuyo destino ella había impreso en la semilla, ella caería sin ver el fruto de su sueño. Le apenó dejar al mundo despojado, ya que los brotes aún no habían salido de la tierra y serían tiernos y vulnerables a cualquier tipo de daño. Ella halló en su bolsa de semillas una última simiente que no había encontrado durante la siembra. Entonces dijo una sola palabra a la semilla y la tragó mientras caía. Su inmenso cuerpo descomponiéndose durante el largo invierno, se convertiría en el humus que alimentaría a los plantones en primavera. Y en la mañana del equinoccio vernal, antes de que el resto del bosque hubiera empezado a despertar, esa última semilla maduró y rompió en un instante. De ella nació Nature's Prophet, en todo su esplendor, fuerte y sabio, poseyendo el poder de Verodicia de prever dónde sería más necesitado en defensa de los verdes parajes y cualquiera podría ser lo bastante afortunado de llamarlo aliado."
+                android:textColor="#000000"
+                android:textSize="20dp" />
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

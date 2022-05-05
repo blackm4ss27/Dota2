@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Blood">
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="409dp"
+        android:layout_height="729dp"
+        android:background="#605E5E"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/letrablood" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="match_parent"
+                android:layout_height="181dp"
+                app:srcCompat="@drawable/bloodseeker" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:background="#4A837E"
+                android:textColor="#000000"
+                android:text="Bloodseeker obliga a sus enemigos a tomar decisiones difíciles. Capaz de hacer retroceder a sus rivales inundando una amplia zona con un ritual dañino, su horripilante habilidad definitiva les fuerza a elegir entre quedarse quietos o morir."
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#B0A2C8"
+                android:text="Habilidades"
+                android:textColor="#081C88"
+                android:textSize="45dp" />
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="match_parent"
+                android:layout_height="101dp"
+                app:srcCompat="@drawable/bloodhabi" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#01453F"
+                android:text="Historia"
+                android:textColor="#31D638"
+                android:textSize="45dp" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#269389"
+                android:text="Strygwyr el Buscador de Sangre (Bloodseeker) es un cazador proclamado a través de un ritual. Un Sabueso de los Gemelos Despellejados enviado en busca de sangre desde los picos envueltos en niebla de Xhacatocatl. Los Despellejados necesitan océanos de sangre para mantenerse saciados y aplacados, y podrían acabar en poco tiempo con la población de los imperios de las montañas si los sacerdotes de las altas mesetas no los apaciguan. Por lo tanto, Strygwyr parte a la caza de presas. La fuerza vital de la sangre que él derrama fluye inmediatamente a los Gemelos a través de las marcas sagradas de sus armas y armadura. A lo largo de los años, ha llegado a encarnar la energía de un feroz sabueso; en la batalla es tan salvaje como un chacal. Bajo la Máscara de Strygwyr, en la carrera por saciar la sed de sangre, se dice que alguna vez se pueden ver los rasgos de los Despellejados tomando directamente posesión de su Sabueso."
+                android:textColor="#000000"
+                android:textSize="20dp" />
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

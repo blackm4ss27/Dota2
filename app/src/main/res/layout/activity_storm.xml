@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Storm">
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="409dp"
+        android:layout_height="729dp"
+        android:background="#605E5E"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/letrastorm" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="match_parent"
+                android:layout_height="181dp"
+                app:srcCompat="@drawable/stormspirit" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:background="#4A837E"
+                android:textColor="#000000"
+                android:text="Storm Spirit nunca se pierde una pelea. Desplazándose en forma de rayo de un lado a otro del campo de batalla, golpea a sus enemigos desde todas las direcciones con remanentes explosivos y ataques cargados, luego desaparece mientras sus enemigos todavía están reaccionando."
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#B0A2C8"
+                android:text="Habilidades"
+                android:textColor="#081C88"
+                android:textSize="45dp" />
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="match_parent"
+                android:layout_height="101dp"
+                app:srcCompat="@drawable/stormhabi" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#01453F"
+                android:text="Historia"
+                android:textColor="#31D638"
+                android:textSize="45dp" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#269389"
+                android:text="Storm Spirit es, literalmente, una fuerza de la naturaleza. La fuerza salvaje del viento y del clima, embotellados bajo forma humana. Y una forma bulliciosa, jovial e indómita, ¡todo hay que decirlo! Tan alegre como nuestro tío favorito, es capaz de insuflar una chispeante energía a cada escena. Pero no siempre fue así. De hecho, hubo una gran tragedia en su creación. Hace generaciones, en las llanuras más allá de las Montañas Aulladoras, una buena persona deambulaba famélica, pasando hambre y sed. Un simple elementalista llamado Panzatrueno utilizó un hechizo prohibido para invocar al espíritu de la tormenta, quería que lloviera. Enfurecida ante la presunción de este mortal, la Tormenta Celestial conocida como Raijin se desató sobre la tierra, azotándola sin piedad con vientos e inundaciones. Panzatrueno no era rival para el ser Celestial, no hasta que conjuró un hechizo suicida que unificó sus destinos en uno: capturó al Celestial en su propio cuerpo. Atrapados juntos, el humor irrefrenable de Panzatrueno se fusionó con la desbordante energía de Raijin, creando al joven Raijin Panzatrueno, un Celestial que camina por el mundo en forma física."
+                android:textColor="#000000"
+                android:textSize="20dp" />
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
